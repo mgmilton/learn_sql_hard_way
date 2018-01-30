@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS person;
+DROP TABLE IF EXISTS pet;
+DROP TABLE IF EXISTS person_pet;
+
 CREATE TABLE person (
     id INTEGER PRIMARY KEY,
     first_name TEXT,
