@@ -47,7 +47,3 @@ INSERT INTO pet VALUES (1, 'Gigantor', 'Robot', 1, 0);
 
 /* the robot LIVES! */
 SELECT * FROM pet;
-
-/*Adds body measurements */
-ALTER TABLE person ADD COLUMN height INTEGER;
-ALTER TABLE person ADD COLUMN weight INTEGER;
